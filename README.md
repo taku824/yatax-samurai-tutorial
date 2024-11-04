@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 # README
+=======
+# yatax-samurai-tutorial
+tutorial for yatax-samurai
+よしき変更
+yatokun
+fgd
+>>>>>>> 0a441a7 (変更を加えた)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
