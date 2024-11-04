@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -23,7 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-=======
-# yatax-samurai-tutorial
+
 tutorial for yatax-samurai
->>>>>>> 95a42a4 (Initial commit)
