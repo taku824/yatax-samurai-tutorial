@@ -1,6 +1,6 @@
 # yatax-samurai-tutorial
 tutorial for yatax-samurai
-よしき追記
+よしき変更
 yatokun
 fgd
 
