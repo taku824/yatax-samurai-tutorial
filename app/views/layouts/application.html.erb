@@ -18,6 +18,20 @@
   </head>
 
   <body>
+    <header>
+      <% if user_account_signed_in? %>
+        <%= form_with url: destroy_user_account_session_path, method: :delete do %>
+          <%= submit_tag "ログアウト" %>
+        <% end %>
+      <% else %>
+        <%= form_with url: new_user_account_registration_path, method: :get do %>
+          <%= submit_tag "サインアップ" %>
+        <% end %>
+        <%= form_with url: new_user_account_session_path do %>
+          <%= submit_tag "ログイン" %>
+        <% end %>
+      <% end %>
+    </header>
     <%= yield %>
   </body>
 </html>
