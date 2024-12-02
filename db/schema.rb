@@ -27,8 +27,6 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_23_073025) do
     t.datetime "remember_created_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["email"], name: "index_user_accounts_on_email", unique: true
-    t.index ["reset_password_token"], name: "index_user_accounts_on_reset_password_token", unique: true
   end
 
   add_foreign_key "posts", "user_accounts"
